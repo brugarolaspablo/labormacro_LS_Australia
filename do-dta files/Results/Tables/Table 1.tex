@@ -1,0 +1,28 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+          &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+          &\multicolumn{1}{c}{lt\_nad}&\multicolumn{1}{c}{Lt}&\multicolumn{1}{c}{lt}&\multicolumn{1}{c}{Lt}\\
+\hline
+L.lt\_nad  &    0.656\sym{***}&  1.0e+07\sym{***}&                  &  1.0e+07\sym{***}\\
+          &  (0.050)         &(7.1e+04)         &                  &(7.1e+04)         \\
+nt        &    0.176\sym{***}&                  &    0.166\sym{***}&                  \\
+          &  (0.026)         &                  &  (0.023)         &                  \\
+wt        &   -0.002         &                  &   -0.003         &                  \\
+          &  (0.009)         &                  &  (0.008)         &                  \\
+zt\_nad    &    0.179\sym{**} &                  &                  &                  \\
+          &  (0.059)         &                  &                  &                  \\
+L.lt      &                  &                  &    0.686\sym{***}&                  \\
+          &                  &                  &  (0.045)         &                  \\
+zt        &                  &                  &    0.162\sym{**} &                  \\
+          &                  &                  &  (0.052)         &                  \\
+\_cons    &   -0.161         & -1.5e+08\sym{***}&   -0.182         & -1.5e+08\sym{***}\\
+          &  (0.353)         &(1.1e+06)         &  (0.315)         &(1.1e+06)         \\
+\hline
+\(N\)     &      143         &      143         &      143         &      143         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}

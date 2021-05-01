@@ -1,0 +1,32 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+          &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+          &\multicolumn{1}{c}{lt}&\multicolumn{1}{c}{lt}&\multicolumn{1}{c}{lt}&\multicolumn{1}{c}{lt}\\
+\hline
+L.lt      &    0.686\sym{***}&    0.996\sym{***}&    0.652\sym{***}&    0.996\sym{***}\\
+          &  (0.045)         &  (0.002)         &  (0.049)         &  (0.002)         \\
+nt        &    0.166\sym{***}&                  &                  &                  \\
+          &  (0.023)         &                  &                  &                  \\
+wt        &   -0.003         &                  &   -0.033\sym{**} &                  \\
+          &  (0.008)         &                  &  (0.011)         &                  \\
+zt        &    0.162\sym{**} &                  &    0.277\sym{***}&                  \\
+          &  (0.052)         &                  &  (0.068)         &                  \\
+nt\_serv   &                  &                  &    0.152\sym{***}&                  \\
+          &                  &                  &  (0.030)         &                  \\
+nt\_const  &                  &                  &    0.015\sym{*}  &                  \\
+          &                  &                  &  (0.006)         &                  \\
+nt\_ag     &                  &                  &   -0.005         &                  \\
+          &                  &                  &  (0.006)         &                  \\
+nt\_manuf  &                  &                  &    0.016         &                  \\
+          &                  &                  &  (0.014)         &                  \\
+\_cons    &   -0.182         &    0.063         &   -0.866         &    0.063         \\
+          &  (0.315)         &  (0.040)         &  (0.648)         &  (0.040)         \\
+\hline
+\(N\)     &      143         &      143         &      143         &      143         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
